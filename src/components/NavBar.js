@@ -5,10 +5,10 @@ import { BiSearch } from "react-icons/bi"
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className="bg-white">
       <Navbar 
        expand="lg" 
-       className="bg-body-tertiary py-2 px-3 border-solid border-2">
+       className="py-2 px-3">
         <Container>
           <Navbar.Brand href="/">
             <Image src={logo} alt="logo" width={60} className="lg:mx-20"/>

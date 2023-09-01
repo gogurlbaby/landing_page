@@ -3,11 +3,11 @@ import hero from "../images/hero1.jpeg"
 
 const Hero = () => {
   return (
-    <section className="">
-    <Container className="py-20 px-2">
+    <section className="bg-white">
+    <Container className="py-10 px-2">
       <Row>
         <Col md={6} sm={12} className="lg:flex lg:flex-col lg:justify-start lg:items-start flex flex-col justify-center items-center">
-        <h1 className="lg:mt-20 lg:text-left lg:text-5xl text-4xl md:text-center text-600 text-blue-900">Your Solution Legal Consultancy</h1>
+        <h1 className="lg:mt-[8rem] lg:text-left lg:text-5xl text-4xl md:text-center text-600 text-blue-900">Your Solution Legal Consultancy</h1>
         <p className="mt-4 text-lg text-[#444a59] lg:text-left md:text-center">We are here to help you take care of your legality with the best service especially for you.</p>
         <button 
          className="hover:scale-105 hover:duration-300 flex justify-center items-center bg-blue-900 hover:bg-[#060757] py-2.5 px-4 text-white text-base rounded-2"
