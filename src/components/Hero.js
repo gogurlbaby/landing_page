@@ -35,7 +35,7 @@ const Hero = () => {
         </Col>
         <Col md={6} sm={12} className="lg:mt-0 mt-4">
         <Image src={hero} alt="hero" roundedCircle />
-        <div className=" mx-auto flex flex-col justify-center items-center relative bottom-8 w-[50%] h-[80px] bg-white border-2 border-solid border-gray-100 z-50">
+        <div className="rounded-lg mx-auto flex flex-col justify-center items-center relative bottom-8 w-[50%] h-[80px] bg-white border-2 border-solid border-gray-100 z-50">
           <h6 className="font-bold text-base text-[#444a59]">Tiara Andini</h6>
           <p className="text-[#444a59a4] text-base">-Lawyer</p>
         </div>

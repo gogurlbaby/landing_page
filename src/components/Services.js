@@ -49,9 +49,9 @@ const Services = () => {
          </div>
          </Col>
          <Col lg={6} sm={12} className="mt-4">
-         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 ">
+         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
          {servicesOffered.map((service, index) => (
-          <div key={index} className="bg-white border-2 border-solid border-white py-4 px-6">
+          <div key={index} className="bg-white rounded-lg border-2 border-solid border-white py-4 px-6">
             <div className="text-left mb-3 text-sky-900">{service.icon}</div>
             <div className="text-left">
               <h4 className="font-semibold text-2xl text-sky-900 mb-2">{service.title}</h4>
