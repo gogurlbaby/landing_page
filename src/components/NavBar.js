@@ -30,7 +30,7 @@ const NavBar = () => {
               <Nav className="justify-content-end flex-grow-1 pe-3 lg:text-lg text-base">
                 <Nav.Link 
                  href="/" 
-                 className="text-[#444a59] hover:text-blue-900"
+                 className="text-[#444a59] hover:text-sky-900"
                 >
                 Home
                 </Nav.Link>
